@@ -1,0 +1,51 @@
+export const cartdata = [
+  {
+    id: 1,
+    img: "/image/1.jpg",
+    alt: "women bag 1",
+    text: "women bag 1 ",
+    price: 1500,
+    count: 1,
+  },
+
+  {
+    id: 2,
+    img: "/image/2.jpg",
+    alt: "women bag 1",
+    text: "women bag 2 ",
+    price: 2000,
+    count: 1,
+  },
+  {
+    id: 3,
+    img: "/image/3.png",
+    alt: "women bag 3",
+    text: "women bag 3 ",
+    price: 2500,
+    count: 1,
+  },
+  {
+    id: 4,
+    img: "/image/4.jpg",
+    alt: "women bag 4",
+    text: "women bag 4 ",
+    price: 2700,
+    count: 1,
+  },
+  {
+    id: 5,
+    img: "/image/5.png",
+    alt: "women bag 5",
+    text: "women bag 5 ",
+    price: 3000,
+    count: 1,
+  },
+  {
+    id: 6,
+    img: "/image/6-6.jpg",
+    alt: "women bag 6",
+    text: "women bag 6 ",
+    price: 3200,
+    count: 1,
+  },
+];

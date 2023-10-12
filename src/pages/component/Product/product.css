@@ -1,0 +1,82 @@
+.parentproduct {
+  @apply container
+      w-full 
+      mx-auto;
+}
+
+.parentitem {
+  @apply 
+     flex 
+     flex-wrap
+      ml-20  
+      mt-20
+      mb-20
+}
+.itemproduct {
+  @apply 
+  lg:w-1/3 
+  md:w-1/2 
+  p-5
+}
+.itemproductshadow {
+  @apply 
+  shadow-md 
+  w-9/12 
+  rounded-md;
+}
+.itemfigure {
+  @apply 
+  relative;
+}
+.absolutefigure {
+  @apply absolute
+     top-0
+     left-0
+     h-0
+     w-full
+     bg-fuchsia-300 
+     rounded-t-md
+     opacity-70  
+     duration-500;
+}
+
+.itemfigure:hover .absolutefigure {
+  @apply h-full;
+}
+
+.imgruonded {
+  @apply 
+  rounded-t-md;
+}
+.parenttextproduct {
+  @apply 
+  flex 
+  justify-between 
+  flex-wrap  
+  py-3 
+  px-5
+  md:px-5 
+  my-2;
+}
+
+.boldtext {
+  @apply 
+  font-bold;
+}
+.paddingprice {
+  @apply 
+  p-1;
+}
+.btnproduct {
+  @apply 
+  bg-fuchsia-700
+  text-sm 
+  px-4 
+  h-8 
+  m-1 
+  text-white 
+  rounded-lg 
+  transition 
+  duration-300 
+  hover:bg-pink-500 
+}

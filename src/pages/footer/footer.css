@@ -1,0 +1,8 @@
+.footer{
+     @apply
+     bg-fuchsia-700 
+     text-white
+     font-bold
+     text-center
+     py-10
+}

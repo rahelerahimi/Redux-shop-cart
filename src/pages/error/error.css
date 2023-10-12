@@ -1,0 +1,23 @@
+.parenterror{
+     @apply
+     w-full 
+     h-screen 
+     flex justify-center 
+     items-center 
+     bg-purple-900
+     text-white
+}
+.textsize{
+     @apply
+     text-9xl
+}
+.btnerror{
+     @apply
+     border 
+     py-1
+     px-3 
+     my-7 
+     ml-16
+     rounded-md
+     hover:bg-fuchsia-600
+}

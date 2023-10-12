@@ -1,0 +1,121 @@
+.containercart{
+     @apply
+     container  
+     font-sans 
+     mx-auto 
+     py-5
+}
+
+.cartempty{
+     @apply
+     w-full  
+     py-14 
+     mt-7  
+     rounded
+     text-center 
+     text-lg
+     text-red-600 
+     font-bold 
+     bg-red-200
+     capitalize
+}
+.cartitem{
+     @apply
+     shadow-md 
+     p-8 
+     w-9/12 
+     mx-auto 
+     mt-7 
+     relative
+}
+
+.btnremoveproduct{
+     @apply
+     text-zinc-400 
+     absolute 
+     top-2 
+     left-3.5
+}
+
+.flexproduct{
+     @apply
+     flex 
+     justify-center 
+     flex-wrap 
+     lg:flex-nowrap
+}
+.imagecart{
+     @apply
+     lg:w-3/12 
+     h-5/6
+
+}
+
+.boldtextcart{
+     @apply
+     font-bold
+}
+.textcart{
+     @apply
+     border-b-2 
+     py-1 
+     my-1  
+     text-slate-600 
+     text-lg
+}
+
+.flextotal{
+     @apply
+     flex 
+     py-1 
+     pr-2
+}
+.pricecart{
+     @apply
+     flex 
+     pr-2
+}
+.flexcountercart{
+     @apply
+     flex  
+     py-2
+     mt-2
+}
+.counterdown{
+     @apply
+     bg-pink-500 
+     w-6 h-7  
+     text-white
+}
+.flexcounter{
+     @apply
+     flex  
+     py-1 
+     px-2
+}
+.counterup{
+     @apply
+     bg-pink-500 
+     w-6 h-7  
+     text-white
+}
+.totalproduct{
+     @apply
+     text-center 
+     py-8
+     bg-fuchsia-400 
+     text-white 
+     font-bold 
+     w-4/5
+     mx-auto 
+     my-10
+     rounded-md
+}
+.clearcart{
+     @apply
+     bg-fuchsia-700 
+     py-2 
+     px-3 
+     mt-4 
+     rounded-md
+}
